@@ -191,7 +191,7 @@ public class ClassroomManager {
 
     public static Teacher findTeacher(String name) {
         for (Teacher teacher : teachers) {
-            if (teacher.getName().equals(name)) {
+            if (teacher.getTeacherName().equals(name)) {
                 return teacher;
             }
         }
